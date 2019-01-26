@@ -1,0 +1,942 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800,800i|Merriweather:300,300i,400,400i,700,700i,900,900i');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    font-family: 'Merriweather';
+}
+
+.container {
+    width: 78.4210526%;
+    /*max-width: 1490px;*/
+    margin: 0 auto;
+}
+
+header {
+	background:url('../img/firstbg.jpg') no-repeat center top / cover;
+    width: 100%;
+}
+
+.heading {
+    box-sizing: border-box;
+    max-width: 1900px;
+    padding-top: 3.5%;
+    padding-right: 9.21052%;
+}
+
+nav {
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    color: #3c3c3c;
+    margin-right: 3.24em;
+    font-size: 1.125em;
+}
+
+#home {
+    border: 1px solid #3c3c3c;
+    padding: 16px 24px 19px 23px;
+}
+
+.titles {
+    margin-top: 19%/*316px*/;
+    /*margin-left: 1100px;*/
+    margin-left: 63%;
+    padding-bottom: 20% /*377px*/;
+    width: 530px;
+}
+
+.title {
+    color: #3c3c3c;
+    text-align: center;
+    font-size: 2.297625em;
+    line-height: 1.375;
+    font-weight: 200;
+    width: 530px;
+}
+
+.divimg {
+    max-width: 420px;
+    padding-left: 26%;
+    padding-top: 8%;
+}
+
+@media screen and (max-width: 768px){
+    .heading {
+        width: 30%;
+        margin-left: 55%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li {
+        margin-bottom: 13px;
+    }
+    #home {
+        border: none;
+        padding: 0;
+    }
+    .titles {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .heading {
+        padding-right: 0.1%;
+
+    }
+    nav ul li a{
+        margin-right: 2em;
+    }
+    .titles {
+        margin-left: 47%;
+        width: 50%;
+    }
+}
+
+/*2 блок.........................*/
+
+#yelsec {
+    padding-bottom: 87px;
+    width: 100%;
+    background-image:url('../img/secbg.jpg') ;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tea {
+    width: 380px;
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.div_img_tea {
+    display: flex;
+    justify-content: center;
+}
+
+.tea h3 {
+    padding-bottom: 31px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Merriweather";
+    color: rgb(60, 60, 60);
+    font-weight: 400;
+    line-height: 1.667;
+}
+
+.tea p {
+    font-size: 16px;
+    text-align: center;
+    color: #504a3a;
+    font-family: "Merriweather";
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 50%;
+    }
+}
+
+
+/*3 блок.........................*/
+
+#whitesec {
+    /*height: 840px;*/
+    /*height: 44%;*/
+    width: 100%;
+    background-color: white;
+}
+
+.title2 {
+    margin: 5.43624161% auto 0 auto;
+    width: 370px;
+}
+
+.title2 h1 {
+    font-weight: 200;
+}
+
+#whitesec h1 {
+  font-size: 2.297625em;
+  color: rgb(60, 60, 60);
+  line-height: 1.375;
+  text-align: center;
+  margin-bottom: 1.543624%;
+}
+
+
+.div_tit_img2 {
+    padding-left: 15%;
+}
+
+.offer {
+   /* margin-top: 57px;
+    margin-left: 0px;*/
+    /*margin-top: 3.8255%;*/
+    margin: 3.8255% auto 0 auto;
+    /*margin-left: 20%;*/
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 8%;
+}
+
+.offerimg {
+    width: 248px;
+    height: 248px;
+}
+
+.offertxt {
+    text-align: center;
+    background-color: #f8f8f8;
+    width: 248px;
+    height: 248px;
+}
+
+.offertxt h3 {
+    font-weight: 400;
+    padding-top: 24%;
+}
+
+
+.offertext p .line {
+    margin-top: 10%;
+}
+
+ p .postline{
+    margin-top: 10%;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.pair {
+    display: inline-flex;
+    margin:0;
+}
+
+@media screen and (max-width: 768px){
+    .container3 {
+        width: 100%;
+    }
+    .offer {
+        display: flex;
+        justify-content: center;
+    }
+    .title2 {
+        width: 320px;
+        font-size: 0.76em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:0 auto;
+        padding:0;
+        padding-top: 20px;
+    }
+    .div_tit_img2 {
+        width: 250px;
+        padding-left: 19%;
+    }
+    .offertxt h3{
+        font-size: 20px;
+    }
+     .offertxt p{
+        font-size: 14px;
+    }
+    .offerimg {
+        width: 160px;
+        height: 160px;
+    }
+    
+
+    .offertxt {
+        text-align: center;
+        width: 160px;
+        height: 160px;
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /*.container {
+        width: 30%;
+    }*/
+    .title2 {
+        padding-top: 30px;
+    }
+    .offer {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .offer {
+        margin-left: 10px;
+    }
+}
+
+
+/*4 блок.........................*/
+
+#aboutus {
+    background-color: #eeefef;
+    /*height: 1000px;*/
+    /*height: 10%;*/
+}
+
+.aboutbase {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutflex {
+    padding-left: 205px;
+}
+
+.title3 {
+    float: left;
+    width: 575px;
+}
+
+.title3 h1 {
+    font-size: 36.762px;
+    font-family: "Merriweather";
+    color: rgb(60, 60, 60);
+    line-height: 1.375;
+    margin-bottom: 23px;
+    padding-top: 250px;
+    padding-left: 224px;
+    font-weight: 200;
+}
+
+.title3 p {
+    text-align: center;
+    font-size: 27.572px;
+    font-family: "Merriweather";
+    color: rgb(60, 60, 60);
+    line-height: 1.8;
+    font-weight: 200;
+}
+
+.decabout {
+    padding-left: 180px;
+    padding-bottom: 40px;
+}
+
+.sign {
+    float: right;
+    padding-top: 56px;
+}
+
+.vegetabel {
+    margin-right: 8%;
+    padding-top: 8%;
+    padding-bottom: 7%;
+   /* padding-left: 150px;*/
+}
+
+@media screen and (max-width: 768px){
+    .aboutbase {
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutflex {
+        padding-left: 0px;
+    }
+
+    .title3 {
+        width: 320px;
+    }
+
+    .title3 h1 {
+        font-size: 30px;
+        line-height: 1.375;
+        margin-bottom: 23px;
+        padding-top: 40px;
+        padding-left: 90px;
+        font-weight: 200;
+    }
+
+    .title3 p {
+        text-align: center;
+        font-size: 13.572px;
+        font-family: "Merriweather";
+        color: rgb(60, 60, 60);
+        line-height: 1.8;
+        font-weight: 200;
+    }
+
+    .decabout {
+        padding-left: 30px;
+        padding-bottom: 40px;
+    }
+
+    .sign {
+        float: right;
+        padding-top: 56px;
+    }
+    .vegetabel {
+        margin: 0 auto;
+        
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .aboutbase {
+      flex-direction: column;
+      align-items: center;
+    }
+    .title3 {
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .title3 h1 {
+        padding-left: 240px;
+    }
+
+    .decabout {
+        padding-left: 180px;
+    }
+
+    .title3 p {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Merriweather";
+    color: rgb(60, 60, 60);
+    line-height: 1.8;
+    font-weight: 200;
+}
+    
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .aboutbase {
+      flex-direction: column;
+      align-items: center;
+    }
+    .aboutflex {
+        padding-left: 0px;
+    }
+
+    .title3 {
+        float: left;
+        width: 575px;
+        margin-top: -100px;
+    }
+
+    .title3 h1 {
+        font-size: 36.762px;
+        font-family: "Merriweather";
+        color: rgb(60, 60, 60);
+        line-height: 1.375;
+        margin-bottom: 23px;
+        padding-top: 250px;
+        padding-left: 204px;
+        font-weight: 200;
+    }
+    .decabout {
+        padding-left: 155px;
+    }
+
+    .title3 p {
+        text-align: center;
+        font-size: 27.572px;
+        font-family: "Merriweather";
+        color: rgb(60, 60, 60);
+        line-height: 1.8;
+        font-weight: 200;
+    }
+        .sign {
+            float: right;
+            padding-top: 56px;
+            padding-left: 365px;
+        } 
+        .vegetabel {
+            margin: 0 auto;
+            padding-top: 8%;
+            padding-bottom: 7%;
+           /* padding-left: 150px;*/
+        }
+}
+
+
+/*5 блок.........................*/
+
+.menufood {
+    background-color: white;
+}
+
+.title4 {
+    margin: 0 auto;
+    width: 930px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title4 h1 {
+    padding-top: 60px;
+    font-size: 36.762px;
+    font-family: "Merriweather";
+    color: rgb(60, 60, 60);
+    line-height: 1.375;
+    font-weight: 200;
+    padding-bottom: 23px;
+    text-align: center;
+}
+
+.decmenu {
+    padding-top: 0px;
+    margin-bottom: 43px;
+}
+
+.menu2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu2 li {
+    font-weight: 200;
+}
+
+.menu2 li a {
+    color: #3c3c3c;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 18px;
+    font-family: 'Merriweather';
+}
+
+#starters {
+    border: 1px solid #3c3c3c;
+    padding: 16px 24px 19px 23px;
+}
+
+.blocksflex {
+    display: flex;
+    justify-content: space-between;
+}
+.blocks {}
+
+.menu_block1 {
+    margin-top: 60px;
+    margin-right: 10%;
+}
+
+.menu_block2 {
+    margin-top: 60px;
+    padding-bottom: 20%;
+}
+
+.blocks p {
+  font-size: 16.543px;
+  font-family: "Merriweather";
+  color: rgb(60, 60, 60);
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 767px){
+    .title4 {
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+
+    .title4 h1 {
+        padding-top: 60px;
+        font-size: 33px;
+        font-family: "Merriweather";
+        color: rgb(60, 60, 60);
+        line-height: 1.375;
+        font-weight: 200;
+        padding-bottom: 23px;
+        text-align: center;
+    }
+
+    .decmenu {
+        padding-top: 0px;
+        margin-bottom: 43px;
+    }
+
+    .menu2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .menu2 li a {
+        text-decoration: none;
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .blocksflex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu_block1 {
+        margin-right: 0;
+    }
+
+    .blocks p {
+      font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .title4 {
+    margin: 0 auto;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -60px;
+}
+
+.title4 h1 {
+    padding-top: 60px;
+    font-size: 36.762px;
+    font-family: "Merriweather";
+    color: rgb(60, 60, 60);
+    line-height: 1.375;
+    font-weight: 200;
+    padding-bottom: 23px;
+    text-align: center;
+}
+
+.decmenu {
+    padding-top: 0px;
+    margin-bottom: 43px;
+}
+
+.menu2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menu2 li {
+    font-weight: 200;
+}
+
+.menu2 li a {
+    color: #3c3c3c;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 18px;
+    font-family: 'Merriweather';
+}
+
+#starters {
+    border: 1px solid #3c3c3c;
+    padding: 16px 24px 19px 23px;
+}
+
+.blocksflex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.blocks {}
+
+.menu_block1 {
+    margin-top: 60px;
+    margin-right: 0%;
+}
+
+.menu_block2 {
+    margin-top: 60px;
+    padding-bottom: 20%;
+}
+
+.blocks p {
+  font-size: 16.543px;
+  font-family: "Merriweather";
+  color: rgb(60, 60, 60);
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1366px){
+   .title4 {
+    margin-left: -180px;
+   }
+   .blocksflex {
+    margin-left: -150px;
+   }
+}
+/*6 блок.........................*/
+
+footer {
+    background:url('../img/footerback.jpg') no-repeat center top / cover;
+    height: 970px;
+}
+
+.titlefooter {
+    width: 570px;
+    padding-top: 4.69798558%;
+    margin-left: 63%;
+}
+.titlefooter h1 {
+    font-size: 36.762px;
+    font-family: "Merriweather";
+    color: rgb(60, 60, 60);
+    line-height: 1.375;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+
+.titlefooter .decfoot {
+    padding-left: 160px;
+    padding-bottom: 63px; 
+}
+
+
+.footbox0 h3{
+    font-size: 18px;
+    font-family: "Merriweather";
+    color: rgb(60, 60, 60);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 200;
+
+}
+
+.footbox0 p {
+    margin-top: 0px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.footboxflex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footbox0 {
+    margin-bottom: 0px;
+}
+
+.form {
+    padding-top: 155px;
+    width: 580px;
+    overflow: visible;
+}
+
+.form h3 {
+    font-weight: 200;
+    overflow: visible;
+}
+
+.fstyle {
+    border-bottom: 1px solid #3c3c3c;
+    height: 35px;
+    overflow: visible;
+}
+
+form input {
+    border: none;
+    background: none;
+}
+
+#fname, #fmail {
+    width: 235px;
+    padding-left: 20px;
+    padding-bottom: 13px;
+}
+
+#fname {
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+#fmessage {
+    width: 555px;
+    margin-top: 72px;
+    padding-left: 20px;
+    padding-bottom: 13px;
+}
+
+form input::placeholder {
+    font-size: 17px;
+    overflow: visible;
+    overflow-y: visible;
+} 
+
+.sub {
+    border: 1px solid #3c3c3c;
+    margin-left: 237px;
+    padding: 18px 29px 17px 29px;
+    margin-top: 53px;
+}    
+
+@media screen and (max-width: 766px){
+    footer {
+    background-position: right top;
+}
+    .container6 {
+    width: 100%;
+    max-width: 1490px;
+    margin: 0 auto;
+}
+    .titlefooter {
+        width: 300px;
+        padding-top: 4.69798558%;
+        margin:0 auto;
+    }
+
+    .titlefooter .decfoot {
+        padding-left: 58px;
+        width: 240px;
+}
+
+    .footboxflex {
+        flex-direction: column; 
+        margin-left: 60px;
+    }
+
+    .footbox1 {
+        padding-bottom: 30px;
+    }
+
+    /*форма*/
+    .form {
+        padding-top: 75px;
+        width: 200px;
+        margin-left: 70px;
+        
+
+    }
+
+    .windowform {
+        display: flex;
+    }
+
+    .form h3 {
+    }
+    #fname, #fmail {
+        width: 150px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+
+    #fname {
+        margin-right: 60px;
+        margin-top: 20px;
+        padding-bottom: -13px;
+        margin-bottom: 15px;
+    }
+
+    #fmessage {
+        width: 150px;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 13px;
+    }
+
+    form input::placeholder {
+        font-size: 18px;
+        overflow: visible;
+    } 
+
+    .sub {
+        border: 1px solid #3c3c3c;
+        margin-left: 37px;
+        padding: 18px 29px 17px 29px;
+        margin-top: 33px;
+    }  
+    #fname, #fmail {
+        width: 150px;
+        padding-left: 20px;
+        padding-bottom: -23px;
+    }  
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    footer {
+    background-position: right top;
+}
+    .titlefooter {
+        width: 550px;
+        padding-top: 4.69798558%;
+        margin:0 auto;
+        margin-left: -100px;
+    }
+    .form h3 {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1456px) {
+    footer {
+    background-position: right top;
+}
+    .titlefooter {
+    width: 570px;
+    padding-top: 4.69798558%;
+    margin:0 auto;
+}
+
+}
+
+
